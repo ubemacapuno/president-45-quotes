@@ -1,0 +1,109 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  background-color: rgb(141, 39, 39);
+  color: white;
+  
+
+}
+
+h1 {
+  margin: 50px;
+  font-size: 2.7rem;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.main{
+  height: 1vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-image: url("../../../American-Trump-2.svg"); */
+}
+
+.main div, button{
+  margin: 5px;
+}
+
+
+.hidden {
+  visibility: hidden;
+}
+
+.hidden2 {
+  display:none;
+}
+
+#quoteSection{
+  margin: 50px;
+  height: 290px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: blue;
+  border: 7px dotted white;
+  /* border: 10px solid transparent;
+  border-image: url(../pngkit_star-pattern-png_1010483.png) 80 round; */
+
+  /*gradient border*/
+  /* border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to right, darkblue, rgb(255, 255, 255)) 1; */
+
+}
+
+#quoteSection h3{
+  margin: 50px 50px 30px 50px;
+  font-size: 2rem;
+}
+
+span {
+  margin: 30px;
+}
+
+
+footer img {
+  height: 300px;
+  /* border-radius: 250px;
+  border: 5px solid #1c1d25;
+  background-color: blue;
+  box-shadow: 5px 5px 20px rgb(197, 195, 195); */
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

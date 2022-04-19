@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="Trump Quote Generator" content="API Practice Using Trump Quotes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Personalized Quotes from the 45th President of the USA</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<h1>
+				Personalized Quotes from President 45
+			</h1>
+		</header>
+
+		<section class="main">
+			<div class="form-group">
+                <label id="name-label" for="name">Name:</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Enter Name Here" required/>
+            </div>
+			<button type="button">Submit</button>
+		</section>
+
+		<section class ="hidden" id = "quoteSection">
+			<h3>test</h3>
+			<span>- Donald J. Trump</span>
+		</section>
+
+		<script type="text/javascript" src="js/main.js"></script>
+		<footer id = "imgSection" class="hidden">
+			<!-- <img class="trump-photo" src="" alt="Cartoon Trump Photo"> -->
+			<i class="hidden2" id="trumpHand"><img src="../objects-dog-photos/trumpPNG/trump-hand.png" alt="Cartoon Trump Photo"></i>
+			<i class="hidden2" id="trumpHands"><img src="../objects-dog-photos/trumpPNG/trump-hands.png" alt="Cartoon Trump Photo"></i>
+			<i class="hidden2" id="trumpTweet"><img src="../objects-dog-photos/trumpPNG/trump-tweeting.png" alt="Cartoon Trump Photo"></i>
+		</footer>
+	</body>
+</html>
